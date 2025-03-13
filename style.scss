@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    background-image: url(img/zebrabanner.png); // Ensure this path is correct
+    
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+    display: flex;
+    
+
+    .nav{
+        justify-content: space-between;
+        border-bottom: 2px solid white;
+        
+    }
+    
+    .fs-4{
+        color: orangered;
+        padding-right: 200px;
+    }
+    .h1{
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+    }
+    ul{ 
+        .nav-item{
+            padding-left: 150px;
+            align-items: center;
+            color: white;
+            width: 200px;
+        }
+        color: white;
+        
+    }
+   
+}
+
+.story{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h1{
+        margin-left: 10%;
+        color: grey;
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+  .d-jay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff;
+    .p-1{
+        background-image: url(img/hover1.png);
+        width: 300px;
+        height: 50vh;
+        background-size: cover; 
+        background-position: center;
+        p{
+            padding-top: 250px;
+        }
+    }
+    .p-2{
+        background-image: url(img/hover2.png);
+        width: 300px;
+        height: 50vh;
+        background-size: cover; 
+        background-position: center;
+        p{
+            padding-top: 250px;
+        }
+    }
+    .p-3{
+        background-image: url(img/hover3.png);
+        width: 300px;
+        height: 50vh;
+        background-size: cover; 
+        background-position: center;
+        p{
+            padding-top: 250px;
+        }
+    }
+   .p-4{
+        background-image: url(img/hover4.png);
+        width: 300px;
+        height: 50vh;
+        background-size: cover; 
+        background-position: center;
+        p{
+            padding-top: 250px;
+        }
+    }
+    .p-5{
+        background-image: url(img/hover5.png);
+        width: 300px;
+        height: 50vh;
+        background-size: cover; 
+        background-position: center;
+        p{
+            padding-top: 200px;
+        }
+    }
+  }
+}
+
+
+
+.Testimony{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h1{
+        margin-left: 10%;
+        color: grey;
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+  .d-jay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff;
+    .p-1{
+        background-image: url(img/testimony1.png);
+        width: 300px;
+        height: 50vh;
+        background-size: cover; 
+        background-position: center;
+        p{
+            align-items: center;
+            text-align: center;
+            padding-top: 290px;
+            
+        }
+    }
+    .border{
+        width: 300px;
+        height: 50vh;
+        p{
+            color: black;
+        }
+    }
+    .p-3{
+        background-image: url(img/testimony2.png);
+        width: 300px;
+        height: 50vh;
+        background-size: cover; 
+        background-position: center;
+        p{
+            align-items: center;
+            text-align: center;
+            padding-top: 290px;
+            
+        }
+    }
+}
+}
+.container-fluid{
+    width: 100px;
+    padding: 20px;
+.bordered-box {
+    width: 100%;
+    height: 350px;
+    border: 1px solid red;
+    padding: 20px;
+    text-align: center;
+
+    p{
+        padding-top: 40px;
+    }
+}
+}
+
+
+.footer {
+    background-color: orangered;
+    padding: 20px;
+    color: white;
+    margin-top: 100px;
+}
+.footer h5 {
+    margin-top: 0;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 10px;
+}
